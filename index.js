@@ -77,8 +77,6 @@ const displayQuiz = (data) => {
 };
 
 // EventListener for quiz submit button
-
-
 document.querySelector("#submit").addEventListener("click", () => {
   if (answers.length < 6) {
     return;
@@ -158,8 +156,10 @@ document.querySelector("#submit").addEventListener("click", () => {
   ${
     storage
       ? `<div class="mt-5">
-      <h1 class="text-center">Previous Submissions <button class="text-blue-800 text-xs" onclick={localStorage.clear(); location.reload()}>Clear History</button></h1>
-    <div class="flex justify-between items-center border rounded p-2 my-2 shadow-sm font-medium">
+      <h1 class="text-center">Previous Submissions 
+        <button class="text-blue-800 text-xs" onclick={localStorage.clear(); location.reload()}>Clear History</button>
+      </h1>
+    <div class="flex justify-between items-center border border-b-2 rounded p-2 my-2 shadow-sm font-medium">
       <div>Marks</div>
       <div>Grade</div>
       <div>Time</div>
@@ -176,7 +176,7 @@ document.querySelector("#submit").addEventListener("click", () => {
       )
       ?.join("")}`
       : ""
-    }
+  }
   </div>
   `;
 
