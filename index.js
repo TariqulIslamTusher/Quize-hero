@@ -157,7 +157,7 @@ document.querySelector("#submit").addEventListener("click", () => {
     storage
       ? `<div class="mt-5">
       <h1 class="text-center">Previous Submissions 
-        <button class="text-blue-800 text-xs" onclick={localStorage.clear(); location.reload()}>Clear History</button>
+        <button class="text-blue-800 text-xs" onclick="{localStorage.clear(); location.reload()}">Clear History</button>
       </h1>
     <div class="flex justify-between items-center border border-b-2 rounded p-2 my-2 shadow-sm font-medium">
       <div>Marks</div>
@@ -180,7 +180,7 @@ document.querySelector("#submit").addEventListener("click", () => {
   </div>
   `;
 
-    clearTimeout(x);
-  }, 1500);
+  clearTimeout(x);
+}, 1500);
   window.scrollTo(0, 0);
 });

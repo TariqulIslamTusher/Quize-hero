@@ -15,7 +15,7 @@ const quizTimer = (dismiss) => {
 
     countHtml.innerHTML = `${
       min + ":" + countSec
-    }<sub class="text-xs">sec</sub>`;
+    }<sub class="text-xs"> sec</sub>`;
     count++;
     if (count > 60) {
       if (count % 2 === 0) {
@@ -34,8 +34,8 @@ const displayQuizOptions = (quiz, i) => {
   let serial = 1;
   let generatedOptions = "";
   for (let option of quiz) {
-    generatedOptions += `<div
-      class="border border-gray-200 rounded text-xs p-2 cursor-pointer"
+    generatedOptions += 
+    `<div class="border border-gray-200 rounded text-xs p-2 cursor-pointer"
       onclick="chooseQuiz('${i}', '${option}')">
       <p class="text-[10px] mb-1">Option ${serial}</p>
       ${option}

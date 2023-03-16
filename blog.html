@@ -48,10 +48,51 @@
         <section class="w-9/12 mx-auto">
             <div tabindex="0" class="bg-white my-2 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
                 <div class="collapse-title text-xl font-medium">
-                  Write the difference between map/filter/find and forEach?
+                  Write down the difference between map()/ filter()/ find() and forEach() methode?
                 </div>
                 <div class="collapse-content"> 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, aliquid iure. Inventore necessitatibus quidem error iste obcaecati expedita consequatur, dolores harum doloremque, corrupti aliquid distinctio eum perferendis quasi nihil odit in nesciunt a! Repellat magnam delectus tempore dicta corrupti atque itaque aspernatur quas, rerum quidem iusto soluta iste officiis laboriosam aliquid animi dolore quisquam autem sunt dolorum esse. Deleniti saepe corrupti aperiam officiis debitis quisquam, fuga numquam quis, neque necessitatibus obcaecati ut a atque beatae enim hic nihil voluptatum facilis eius iure. Maxime dolor, explicabo laudantium vero eveniet quam, voluptate neque ipsum aperiam ratione dolorum corrupti temporibus ut enim.</p>
+                  <p>JavaScript Provide different methodes to loop through an Array and Object. Out of these For loop is the most popular methode, but other then this there are some other methode like forEach() / map() methode to loop through an array. Returning the value after looping is the main difference between of forEach and map methode. filter method is also use in js array or object for filtering the element under condition. And find is the things for which we can search on an array or object with specific credentials or conditions.</p> <br>
+                  <p>Above mentioned methodes and its features are listed below :</p>
+                  <h3>Features of map() methode</h3>
+                  <div>
+                    <ul class="list-decimal ml-7">
+                        <li>map() creates a new array</li>
+                        <li>map() does not change the original array</li>
+                        <li>map() returns value which creates a new array</li>
+                        <li>map() is an ES6 features</li>
+                        <li>map() is used to iterate over every element on array</li>
+                        <li>map() is use when same action is need in every elements of an collection</li>
+                      </ul>
+                  </div> <br>
+                  <h3>Features of filter() methode</h3>
+                  <div>
+                    <ul class="list-decimal ml-7">
+                        <li>filter() return an array which stays beyond condition</li>
+                        <li>filter() can run both on array and object</li>
+                        <li>filter() methode pass a callback function which select the passed element to make a new array</li>
+                        <li>filter() methode need a variable to store its returns data</li>
+                      </ul>
+                  </div> <br>
+                  <h3>Features of find() methode</h3>
+                  <div>
+                    <ul class="list-decimal ml-7">
+                        <li>find() methode returns the element on the given condition</li>
+                        <li>find() methode find the element on condition that passes the test</li>
+                        <li>find() methode use to aquir the element that meets the given criteria</li>
+                        <li>find() methode can be used both in array and in object</li>
+                      </ul>
+                  </div> <br>
+                  <h3>Features of forEach() methode</h3>
+                  <div>
+                    <ul class="list-decimal ml-7">
+                        <li>forEach() is also an iterativ methode</li>
+                        <li>forEach() methode only used in array</li>
+                        <li>forEach() always returns undefined</li>
+                        <li>forEach() can also used as for loop storing into a variable</li>
+                        <li>forEach() may not change the original array</li>
+                        
+                      </ul>
+                  </div> <br>
                 </div>
               </div>
             <div tabindex="0" class="bg-white my-2 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
@@ -59,7 +100,17 @@
                   What is the difference between LocalStorage, SessionStorage and Cookies?
                 </div>
                 <div class="collapse-content"> 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, aliquid iure. Inventore necessitatibus quidem error iste obcaecati expedita consequatur, dolores harum doloremque, corrupti aliquid distinctio eum perferendis quasi nihil odit in nesciunt a! Repellat magnam delectus tempore dicta corrupti atque itaque aspernatur quas, rerum quidem iusto soluta iste officiis laboriosam aliquid animi dolore quisquam autem sunt dolorum esse. Deleniti saepe corrupti aperiam officiis debitis quisquam, fuga numquam quis, neque necessitatibus obcaecati ut a atque beatae enim hic nihil voluptatum facilis eius iure. Maxime dolor, explicabo laudantium vero eveniet quam, voluptate neque ipsum aperiam ratione dolorum corrupti temporibus ut enim.</p>
+                  <p><span class="font-bold">LocalStorage :  </span>
+                    Local storage is useful for storing data that the user will need to access later, such as offline data. Local storage is now highly using by different e-commers websites and applications. Genarally it is more visible once logged in website used some local storage for every user to store data for better experience. These data doesnt removed without coading or break off the loging site as well as the hardware.There is no expiration date for the data kept in local storage.The storage limitation is approximately 10MB.Data from local storage is never sent to the server.
+                    </p><br>
+
+                  <p><span class="font-bold">SessionStorage :  </span>
+                    The localStorage and the sessionStorage are extremely similar. However, the limitation of session storage is its information stays in the browser—until the current tab or session is active. The data stored in session storage is also deleted when the tab of browser or the site break off or closed. 
+                    </p><br>
+
+                  <p><span class="font-bold">Cookies :  </span>
+                    Cookies assist us in storing client-side data to provide website visitors with a customized experience. Cookies are transmitted to the server along with requests and returned back to the client in response; as a result, the server and client exchange cookie data with each request. The servers could deliver users tailored content using the cookie data.
+                    </p>
                 </div>
               </div>
             <div tabindex="0" class="bg-white my-2 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
@@ -67,25 +118,29 @@
                   What does you mean by Event loop?
                 </div>
                 <div class="collapse-content"> 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, aliquid iure. Inventore necessitatibus quidem error iste obcaecati expedita consequatur, dolores harum doloremque, corrupti aliquid distinctio eum perferendis quasi nihil odit in nesciunt a! Repellat magnam delectus tempore dicta corrupti atque itaque aspernatur quas, rerum quidem iusto soluta iste officiis laboriosam aliquid animi dolore quisquam autem sunt dolorum esse. Deleniti saepe corrupti aperiam officiis debitis quisquam, fuga numquam quis, neque necessitatibus obcaecati ut a atque beatae enim hic nihil voluptatum facilis eius iure. Maxime dolor, explicabo laudantium vero eveniet quam, voluptate neque ipsum aperiam ratione dolorum corrupti temporibus ut enim.</p>
+                  <p>Event loop is a javaScript runtiome model which is responsible for executing the code, collecting and proccesing the events and executing queued sub-tasks. It is the secretes behing javaScript's asynchornous programming. JavaScript execute all operations in a sigle thread, but using a few data structure it gives the illusion of multi-threading experience. In imagination Event loop is held by a call stack , a event queue and a broser api. Event queue sends the operators or functions in the stack on fill basis, when the stack is empty the event queue again sent the function maintaining the sequence of the code. Whenever an async function is called, it is sent to a browser API. These are APIs built into the browser. Here the browser api sent as a seperate threads. It runs the async function in the single thread. As example 'setTimeOut' method. when a 'setTimeOut' methode run into a stack, it sends to its corresponding API's and wait till the specified time to send the function back in the stack to oparate again. </p>
                 </div>
               </div>
+
+              <div tabindex="0" class="bg-white my-2 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                  Describe the operations of quizeTimer Functions?
+                </div>
+                <div class="collapse-content"> 
+                  <p>The function quizTimer is declared in noChange.js file where it declare with one perameter, that means it will take only one argument, and seems like argument will be boolean value. If the argument is true the quizTimer will stop the timer executing in the innerText of ID 'count' . The innerText of id 'count' is also made dynamic by quizTimer function. timer variable holding the setInterval function that changing the innerText of 'count' in every second and dynamically making its as minutes and seconds in two decimal number. And mentioned function also make the innerText of id 'count' into red-700 after passing the 60 sec of the quiz test. In the index.js file we can observe that the quizTimer function called in two place on condition where on is getting argument as true and the other is as null ,hence false value.</p>
+                </div>
+              </div>
+
             <div tabindex="0" class="bg-white my-2 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
                 <div class="collapse-title text-xl font-medium">
                   What is the Functional descriptions of chooseQuize function?
                 </div>
                 <div class="collapse-content"> 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, aliquid iure. Inventore necessitatibus quidem error iste obcaecati expedita consequatur, dolores harum doloremque, corrupti aliquid distinctio eum perferendis quasi nihil odit in nesciunt a! Repellat magnam delectus tempore dicta corrupti atque itaque aspernatur quas, rerum quidem iusto soluta iste officiis laboriosam aliquid animi dolore quisquam autem sunt dolorum esse. Deleniti saepe corrupti aperiam officiis debitis quisquam, fuga numquam quis, neque necessitatibus obcaecati ut a atque beatae enim hic nihil voluptatum facilis eius iure. Maxime dolor, explicabo laudantium vero eveniet quam, voluptate neque ipsum aperiam ratione dolorum corrupti temporibus ut enim.</p>
+                  <p>chooseQuize function is declared on the noChange.js file and it is calling inside the displayQuizOptions function where it is getting two argument as it declared as being two perameters holders. The argument of mentioned function dynamically sets as id of the quiz which comes from the fetched data displaying functions where i declared as perameters and extends each time with forEach methods. And the second argument is the option which comes iterativly by the for loop executions on quiz. "chooseQuiz" 
+                  </p>
                 </div>
               </div>
-            <div tabindex="0" class="bg-white my-2 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
-                <div class="collapse-title text-xl font-medium">
-                  Describe the operations of quizeTimer Functions?
-                </div>
-                <div class="collapse-content"> 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, aliquid iure. Inventore necessitatibus quidem error iste obcaecati expedita consequatur, dolores harum doloremque, corrupti aliquid distinctio eum perferendis quasi nihil odit in nesciunt a! Repellat magnam delectus tempore dicta corrupti atque itaque aspernatur quas, rerum quidem iusto soluta iste officiis laboriosam aliquid animi dolore quisquam autem sunt dolorum esse. Deleniti saepe corrupti aperiam officiis debitis quisquam, fuga numquam quis, neque necessitatibus obcaecati ut a atque beatae enim hic nihil voluptatum facilis eius iure. Maxime dolor, explicabo laudantium vero eveniet quam, voluptate neque ipsum aperiam ratione dolorum corrupti temporibus ut enim.</p>
-                </div>
-              </div>
+
         </section>
     </main>
 
