@@ -58,7 +58,7 @@ const chooseQuiz = (index, givenAns) => {
       serial++;
     }
   } else {
-    answers.push({ ...quizData[index], givenAns });
+    answers.push({ ...quizData[index], givenAns});
   }
   displayAnswers(answers);
 };
